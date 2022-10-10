@@ -1,0 +1,132 @@
+/* -------------- 
+   Global Setting
+   -------------- */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   *{
+    font-family: "montserrat", sans-serif ;
+    font-size: 62.5%;
+
+}
+
+html{
+    background: #000000;   
+    padding: 0rem 2rem;
+}
+
+/* -------- 
+   Homepage
+   -------- */
+/* -----------------
+   Navigation Banner
+   ----------------- */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    font-weight: 300;
+}
+
+.nav-bar a:hover{
+    color: #888888;
+}
+
+.logo{
+    width: 10rem;
+}
+/* ------------
+   Hero Section
+   ------------ */
+
+.hero{
+    color: #ffffff;
+    margin-top: 1rem;
+    padding: 2rem 0rem;
+
+
+}
+
+.hero-background{
+    background:  #000000;
+
+}
+
+.hero-card{
+    width: 45%;
+    padding: 20% 0;
+    font-weight: 900;
+
+}
+
+.small-hero-header{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: gold;
+    text-transform: uppercase;
+
+}
+
+.big-hero-header{
+    
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.hero-text{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #828282;
+    padding: 2rem 0rem;
+   
+}
+
+.hero-button{
+    background: #1ab152;
+    padding: 2rem 0rem;
+    border-radius: 3rem;
+    border: 0px solid;
+    margin-bottom: 1rem;
+}
+
+.hero-button a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 2rem 8rem;
+}
+
+.hero-button:hover{
+    background: #000000;
+    border: 0.1rem solid #ffffff;
+
+}
+
+
+/* ---------------
+   Project Section
+   --------------- */
+.projects-container{
+    height: 110vh;
+    background: green;
+}
+
+/* ---------------
+   Contact Section
+   --------------- */
+
+.contact-form-section{
+    height: 100vh;
+    background: yellow;
+}
