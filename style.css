@@ -11,6 +11,7 @@
 html{
     background: #000000;   
     padding: 0rem 2rem;
+    
 }
 
 /* -------- 
@@ -24,7 +25,13 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #000000;
 
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
 }
 
 .nav-bar a{
@@ -49,9 +56,10 @@ html{
 
 .hero{
     color: #ffffff;
-    margin-top: 1rem;
-    padding: 2rem 0rem;
+    height: 95vh;  
 
+    display: flex;
+    align-items: center;
 
 }
 
@@ -62,8 +70,9 @@ html{
 
 .hero-card{
     width: 45%;
-    padding: 20% 0;
     font-weight: 900;
+
+   
 
 }
 
@@ -95,7 +104,7 @@ html{
     padding: 2rem 0rem;
     border-radius: 3rem;
     border: 0px solid;
-    margin-bottom: 1rem;
+
 }
 
 .hero-button a{
@@ -118,8 +127,26 @@ html{
    Project Section
    --------------- */
 .projects-container{
-    height: 110vh;
-    background: green;
+    height: 100vh;
+    background: pink;
+    
+}
+
+.tech-used{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    
+    
+    
+}
+
+.tech-img{
+    width: 10rem;
+    border: 1px solid black;
 }
 
 /* ---------------
@@ -127,6 +154,6 @@ html{
    --------------- */
 
 .contact-form-section{
-    height: 100vh;
-    background: yellow;
+    height: 93.75vh;
+    background: #000000;
 }
