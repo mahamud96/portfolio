@@ -214,15 +214,15 @@ html{
   .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('Images/movies.png');
+    background: url("img/movies.png");
     background-size: cover;
   }
   .item-2 {
-    background: url('Images/weather.png');
+    background: url("img/weather.png");
     background-size: cover;
   }
   .item-3 {
-    background: url('Images/Calculator.png');
+    background: url("img/calculator.png");
     background-size: cover;
   }
 
