@@ -54,7 +54,7 @@ html{
    ------------ */
 
 .hero{
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
     height: 89vh;  
     display: flex;
     align-items: center;
@@ -155,11 +155,6 @@ html{
    Project Section
    --------------- */
    
-   .projects-container{
-    background: gray;
-
-   }
-   
    .projects-heading{
     font-size: 3.2rem;
     font-weight: 300;
@@ -170,14 +165,12 @@ html{
   }
   
   .carousel-wrapper {
-    height: 40rem;
-    max-height: fit-content;
+    height: 400px;
     position: relative;
-    width: 80rem;
+    width: 800px;
     display: block;
-    margin: 5rem auto ;
-    border: .2rem solid black;
-    
+    margin: 50px auto ;
+    border: 2px solid black;
   }
   
   .carousel-item {
@@ -186,25 +179,25 @@ html{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 2.5rem 5rem;
+    padding: 25px 50px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
   }
   .arrow{
     border: solid black;
-    border-width: 0 0.3rem 0.3rem 0;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 1.2rem;
+    padding: 12px;
   }
   .arrow-prev {
-    left: 3rem;
+    left: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(135deg);
   
   }
   .arrow-next {
-    right: 3rem;
+    right: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
@@ -213,20 +206,126 @@ html{
   [id^= "item"] {
     display: none;
   }
+
+  .hide{
+    display: none;
+  }
+
   .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('img1.jpg');
+    background: url('Images/movies.png');
     background-size: cover;
   }
   .item-2 {
-    background: url('img2.jpg');
+    background: url('Images/weather.png');
     background-size: cover;
   }
   .item-3 {
     background: url('Images/Calculator.png');
     background-size: cover;
   }
+
+  .item-1:hover {
+    background: #9d8228;
+
+  }
+
+  .item-1:hover .hide{
+    display: block;
+  }
+
+  .item-2:hover {
+    background: #9d8228;
+
+  }
+
+  .item-2:hover .hide{
+    display: block;
+  }
+
+  .item-3:hover {
+    background: #9d8228;
+
+  }
+
+  .item-3:hover .hide{
+    display: block;
+  }
+
+  .hover-items{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .project-header{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: "montserrat", sans-serif ;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+  }
+
+
+  
+  .source-code{
+    background: #000000;
+    padding: 2rem 0rem;
+    border-radius: 3rem;
+    border: 0px solid;
+}
+
+.source-code a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9d8228;
+    font-weight: 400;
+    padding: 2rem 6rem;
+}
+
+.source-code:hover{
+    background: #000000;
+    border: 0.1rem solid #ffffff;
+
+}
+
+
+  .live-preview{
+    background: #000000;
+    padding: 2rem 0rem;
+    border-radius: 3rem;
+    border: 0px solid;
+
+}
+
+.live-preview a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9d8228;
+    font-weight: 400;
+    padding: 2rem 6rem;
+}
+
+.live-preview:hover{
+    background: #000000;
+    border: 0.1rem solid #ffffff;
+
+}
+
+
   
   *:target ~ .item-1{
     opacity: 0;
@@ -238,7 +337,7 @@ html{
   #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
     z-index: 3;
     opacity: 1;
-  } 
+  }
 
 /* ---------------
    Contact Section
