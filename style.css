@@ -350,8 +350,21 @@ html{
 
 
 
-/* 
-1. Bug tracker
-2. look at color not read
-3. 
-*/
+/*  -------------
+    Thankyou Page
+    ------------- */
+  .thankyou-page{
+    font-size: 3.2rem;
+    text-align: center;
+    align-content: center;
+    padding: 46% 0;
+  }
+
+  .thankyou-heading{
+    color: #D4AF37;
+    text-transform: uppercase;
+
+  }
+  .thankyou-text{
+    color: #ffffff;
+  }
