@@ -10,7 +10,7 @@
 
 html{
     background: #000000;   
-    padding: 0rem 20%;
+    padding: 0rem 15%;
 }
 
 /* -------- 
@@ -121,7 +121,7 @@ html{
    Technology Section
    ------------------ */
 .projects-page{
-    height: 80vh;
+    height: 100vh;
     padding-top: 6rem;
 }
 
