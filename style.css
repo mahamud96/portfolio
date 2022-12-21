@@ -10,7 +10,7 @@
 
 html{
     background: #000000;   
-    padding: 0rem 2rem;
+    padding: 0rem 20%;
 }
 
 /* -------- 
@@ -121,7 +121,7 @@ html{
    Technology Section
    ------------------ */
 .projects-page{
-    height: 100vh;
+    height: 80vh;
     padding-top: 6rem;
 }
 
@@ -129,6 +129,7 @@ html{
     background: #D4AF37;
     border-radius: 5rem;
     padding: 0.5rem 0rem;
+    justify-content: space-evenly;
 }
 .small-tech-header{
     font-size: 3rem;
@@ -138,12 +139,12 @@ html{
 
 .top-row-tech{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .second-row-tech{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -339,32 +340,13 @@ html{
     opacity: 1;
   }
 
-/* ---------------
-   Contact Section
-   --------------- */
+/* --------------
+   Footer Section
+  --------------- */
 
-.contact-form-section{
-    height: 93.75vh;
-    background: #000000;
+.footer-section{
+  color: #D4AF37;
+  font-size: 1.9rem;
+  text-align: center;
+  margin: 5rem 0;
 }
-
-
-
-/*  -------------
-    Thankyou Page
-    ------------- */
-  .thankyou-page{
-    font-size: 3.2rem;
-    text-align: center;
-    align-content: center;
-    padding: 46% 0;
-  }
-
-  .thankyou-heading{
-    color: #D4AF37;
-    text-transform: uppercase;
-
-  }
-  .thankyou-text{
-    color: #ffffff;
-  }
