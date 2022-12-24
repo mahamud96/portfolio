@@ -161,7 +161,7 @@ html{
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: #9d8228;
     margin-top: 3rem;
   }
   
@@ -344,9 +344,10 @@ html{
    Footer Section
   --------------- */
 
-.footer-section{
-  color: #D4AF37;
+.email{
+  color: #9d8228;
   font-size: 1.9rem;
   text-align: center;
   margin: 5rem 0;
+  padding-bottom: 2rem;
 }
